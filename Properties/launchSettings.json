@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PetSimWiki (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PetSimWiki (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
