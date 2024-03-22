@@ -28,11 +28,15 @@
                 <TextBlock FontFamily="Arial" FontSize="20" Text="you want to learn this game here go read some things you want to know."/>
                 <TextBlock Text=""/>
                 <TextBlock FontFamily="Arial" FontSize="20" Text="Click on one of the buttons to go to that page."/>
-                <TextBlock Text=""/>
+                <TextBlock FontFamily="Arial" FontSize="20" Text="______________________________________________"/>
                 
                 <StackPanel Orientation="Horizontal">
-                    <Button>Eggs</Button>
-                    <Button>Pets</Button>
+                    <StackPanel Orientation="Vertical">
+                        <Button>Eggs</Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <Button>Pets</Button>
+                    </StackPanel>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
