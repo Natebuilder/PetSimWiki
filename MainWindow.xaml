@@ -8,8 +8,33 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBlock>Hi Welcome to Pet Simulator Wiki. This version is still in Beta, 
-            but if you want to learn this game here go read some things you want to know.</TextBlock>
-    </StackPanel>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ScrollViewer VerticalScrollBarVisibility="auto">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontFamily="Arial" FontSize="30" FontWeight="Bold" Padding="0,0,10,0" Foreground="#035afc" Text="Pet"/>
+                    <TextBlock FontFamily="Arial" FontSize="30" FontWeight="Bold" Padding="0,0,10,0" Foreground="#0044c2" Text="Simulator"/>
+                    <TextBlock FontFamily="Arial" FontSize="30" FontWeight="Bold" Padding="0,0,10,0" Foreground="#01318a" Text="Wiki"/>
+                </StackPanel>
+                
+                <TextBlock Text=""/>
+                <TextBlock FontFamily="Arial" FontSize="20" Text="Hi Welcome to Pet Simulator Wiki. This version is still in Beta, but if"/>
+                <TextBlock FontFamily="Arial" FontSize="20" Text="you want to learn this game here go read some things you want to know."/>
+                <TextBlock Text=""/>
+                <TextBlock FontFamily="Arial" FontSize="20" Text="Click on one of the buttons to go to that page."/>
+                <TextBlock Text=""/>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Button>Eggs</Button>
+                    <Button>Pets</Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
 </Window>
