@@ -32,10 +32,10 @@
                 
                 <StackPanel Orientation="Horizontal">
                     <StackPanel Orientation="Vertical">
-                        <Button>Eggs</Button>
+                        <Button x:Name="EggButton" FontFamily="Arial" Background="#2c5bdb">Eggs</Button>
                     </StackPanel>
                     <StackPanel Orientation="Vertical">
-                        <Button>Pets</Button>
+                        <Button x:Name="PetButton" FontFamily="Arial" Background="#2c5bdb">Pets</Button>
                     </StackPanel>
                 </StackPanel>
             </StackPanel>
